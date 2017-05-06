@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ajmalsyed.contacts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+
+        <activity android:name=".Activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.HomeActivity"
+                  android:label="Home"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Activities.AddContacts"
+            android:parentActivityName=".Activities.HomeActivity"
+            android:label="Add Contacts"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Activities.ContactsRead"
+            android:parentActivityName=".Activities.HomeActivity"
+            android:label="Contact List"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Activities.UpdateContact"
+            android:parentActivityName=".Activities.ContactsRead"
+            android:label="Edit Contacts"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Activities.SearchContact"
+            android:parentActivityName=".Activities.HomeActivity"
+            android:label="Search Contacts"
+            android:theme="@style/AppTheme"/>
+
+    </application>
+
+</manifest>

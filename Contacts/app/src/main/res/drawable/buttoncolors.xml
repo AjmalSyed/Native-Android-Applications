@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:state_window_focused="false">
+        <shape>
+            <gradient
+                android:angle="180"
+                android:startColor="#00BCD4"
+                android:endColor="#006064"/>
+            <stroke
+                android:width="5dp"
+                android:color="#E0F7FA"
+                />
+            <corners
+                android:radius="180dp"/>
+            <stroke
+                />
+        </shape>
+    </item>
+</selector>
