@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+
+    >
+    <ImageView
+        android:id="@+id/imagid"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/color_red"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/colorstext_height"
+        android:orientation="vertical"
+        android:id="@+id/categary_colors"
+        android:layout_toRightOf="@id/imagid"
+        >
+    <TextView
+        android:id="@+id/miwoketext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wetetti"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:paddingTop="15dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="4dp"
+
+        />
+
+    <TextView
+        android:id="@+id/defaulttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="red"
+        android:textColor="@android:color/white"
+        android:paddingBottom="15dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="4dp"/>
+
+</LinearLayout>
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/play_button_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

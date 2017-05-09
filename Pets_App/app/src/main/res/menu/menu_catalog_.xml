@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ajmalsyed.pets_app.Catalog_Activity">
+    <item
+        android:id="@+id/Search"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="Delete All"
+        app:showAsAction="never" />
+
+</menu>

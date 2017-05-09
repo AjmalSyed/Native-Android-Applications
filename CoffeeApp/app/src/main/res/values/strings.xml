@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CoffeeApp</string>
+    <string name="hinttext" translatable="false">WriteName</string>
+    <string name="whippedcream">WhippedCream</string>
+    <string name="chocolatetext">Chocolate</string>
+    <string name="ordersummery">OrderSummery:</string>
+    <string name="price">$0</string>
+    <string name="submitbutton">SUBMIT</string>
+    <string name="increamentbutton">+</string>
+    <string name="quantitytext">0</string>
+    <string name="decrementbutton">-</string>
+    <string name="iswhippedcream">whippedcream</string>
+    <string name="ischocolate">chocolate</string>
+</resources>

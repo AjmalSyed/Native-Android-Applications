@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ajmalsyed.pets_app.SearchActivity">
+
+    <EditText
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Search"
+        />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SEARCH"
+        android:textSize="25dp"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="220dp"
+       android:layout_margin="40dp"
+       android:orientation="vertical"
+       android:background="@drawable/searchlayout">
+
+       <TextView
+           android:id="@+id/nametext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:textSize="25dp"
+           android:textColor="@android:color/black"
+           android:layout_marginTop="20dp"
+           android:layout_gravity="center_horizontal"/>
+           <!--android:layout_marginLeft="20dp"-->
+
+
+
+       <TextView
+           android:id="@+id/breedtext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:textSize="25dp"
+           android:textColor="@android:color/black"
+           android:layout_marginTop="20dp"
+           android:layout_gravity="center_horizontal"
+           />
+
+
+       <TextView
+           android:id="@+id/gendertext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:textSize="25dp"
+           android:textColor="@android:color/black"
+           android:layout_marginTop="20dp"
+           android:layout_gravity="center_horizontal"
+           />
+
+
+       <TextView
+           android:id="@+id/weighttext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:textSize="25dp"
+           android:textColor="@android:color/black"
+           android:layout_marginTop="20dp"
+           android:layout_gravity="center_horizontal"
+           />
+
+   </LinearLayout>
+
+
+</LinearLayout>

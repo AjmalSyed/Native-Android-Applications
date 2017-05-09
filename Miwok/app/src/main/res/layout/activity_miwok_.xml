@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCDD2"
+    android:padding="10dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="47dp"
+    tools:context="com.example.ajmalsyed.miwok.Miwok_Activity">
+
+    <TextView
+        android:id="@+id/numbers_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/numbers_text"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:background="#F44336"
+        />
+     <!--  android:background="?android:attr/selectableItemBackground" -->
+
+
+
+
+
+    <TextView
+        android:id="@+id/family_members_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/familymember_text"
+        android:background="#673AB7"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="30dp"
+
+        />
+    <TextView
+        android:id="@+id/colors_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/colors_text"
+        android:background="#4CAF50"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="30dp"
+       />
+    <TextView
+        android:id="@+id/phrases_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/phrases_text"
+        android:background="#2196F3"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="30dp"
+       />
+</LinearLayout>

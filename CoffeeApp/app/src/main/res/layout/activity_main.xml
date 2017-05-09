@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ajmalsyed.coffeeapp.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/hinttext"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+
+        />
+    <CheckBox
+        android:id="@+id/whippedcreamcheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext"
+        android:text="@string/whippedcream"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+    <CheckBox
+        android:id="@+id/chocolatcheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whippedcreamcheck"
+        android:text="@string/chocolatetext"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/increamentbutton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/increamentbutton"
+        android:textSize="40sp"
+        android:layout_below="@id/chocolatcheck"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="increment"
+        />
+    <TextView
+        android:id="@+id/quantitytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantitytext"
+        android:textSize="40sp"
+        android:layout_toRightOf="@id/increamentbutton"
+        android:layout_below="@id/chocolatcheck"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="90dp"/>
+
+    <Button
+        android:id="@+id/decrementtbutton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/decrementbutton"
+        android:textSize="40sp"
+        android:layout_below="@id/chocolatcheck"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="95dp"
+        android:layout_toRightOf="@id/quantitytext"
+        android:onClick="decrement"
+        />
+    <TextView
+        android:id="@+id/ordersummery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ordersummery"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/increamentbutton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/pricetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ordersummery"
+        android:text="@string/price"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submitbutton"
+        android:textSize="30sp"
+        android:layout_below="@id/pricetext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:onClick="submitorder"/>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/categary_phrases"
+    android:padding="10dp"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/miwoketext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="minto wuksus?"
+            android:gravity="bottom"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="4dp"
+            />
+
+        <TextView
+            android:id="@+id/defaulttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Where are you going?"
+            android:textColor="@android:color/white"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="1dp"
+            android:paddingRight="4dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/play_button_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
+
+
